@@ -273,4 +273,4 @@ document.querySelectorAll('input, textarea').forEach(field => {
 // Console Easter Egg
 console.log('%c👋 Hi there!', 'font-size: 24px; font-weight: bold; color: #38bdf8;');
 console.log('%cLooking at the code? I like your style!', 'font-size: 14px; color: #94a3b8;');
-console.log('%cFeel free to reach out: atabikwifaqul89@email.com', 'font-size: 12px; color: #64748b;');
+console.log('%cFeel free to reach out: atabikwifaqul89@gmail.com', 'font-size: 12px; color: #64748b;');
