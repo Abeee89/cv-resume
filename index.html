@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Frontend Developer</title>
+    <link rel="icon" type="image/png" href="assets/icon.png" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -69,15 +71,15 @@
 
     <!-- BLOGS -->
     <section id="blogs" class="blogs">
-        <div class="section-header">
+        <div class="section-header" data-aos="fade-down" data-aos-duration="800">
             <h2>Blogs</h2>
             <a href="#" class="see-more">[ see more ]</a>
         </div>
-        <p class="section-description">
+        <p class="section-description" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             A collection of my thoughts, ideas, and experiences. I write about various topics, including web development, technology, and personal topics.
         </p>
         <div class="blog-grid">
-            <div class="blog-card">
+            <div class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <div class="blog-meta">
                     <span class="blog-date">📅 2025-01-15</span>
                     <span class="blog-read-time">⏱️ 5 min read</span>
@@ -85,7 +87,7 @@
                 <h3>Getting Started with ROS for Autonomous Systems</h3>
                 <p>Learn how to set up and configure ROS 1 for building autonomous UAV navigation systems with real-time sensor integration.</p>
             </div>
-            <div class="blog-card">
+            <div class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                 <div class="blog-meta">
                     <span class="blog-date">📅 2024-12-20</span>
                     <span class="blog-read-time">⏱️ 7 min read</span>
@@ -93,7 +95,7 @@
                 <h3>Computer Vision with NVIDIA Jetson</h3>
                 <p>A practical guide to deploying YOLOv4 models on NVIDIA Jetson for real-time object detection in robotics applications.</p>
             </div>
-            <div class="blog-card">
+            <div class="blog-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                 <div class="blog-meta">
                     <span class="blog-date">📅 2024-11-10</span>
                     <span class="blog-read-time">⏱️ 6 min read</span>
@@ -107,28 +109,28 @@
 
     <!-- ABOUT -->
     <section id="about" class="about">
-        <div class="section-header">
+        <div class="section-header" data-aos="fade-down" data-aos-duration="800">
             <h2>About</h2>
         </div>
-        <p class="about-description">
+        <p class="about-description" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
             I'm a <strong>Robotic Engineer</strong> with ~1 year of hands-on experience developing autonomous UAV systems, real-time computer vision pipelines, and robotics simulations. Skilled in PX4/ArduPilot flight controller, MAVLink communication, and ROS 1 integration for multi-sensor navigation.
         </p>
-        <p class="about-description">
+        <p class="about-description" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
             Additionally, I work as a <strong>Frontend Engineer</strong> with a passion for building high-performance web applications that scale. Experienced in React, TypeScript, and modern frontend technologies. I enjoy creating intuitive user interfaces and solving complex engineering problems.
         </p>
     </section>
 
     <!-- PROJECTS -->
     <section id="projects" class="projects">
-        <div class="section-header">
+        <div class="section-header" data-aos="fade-down" data-aos-duration="800">
             <h2>Projects</h2>
             <a href="#" class="see-more">[ see more ]</a>
         </div>
-        <p class="section-description">
+        <p class="section-description" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             A collection of my technical projects and experiments. From autonomous robotics to modern web applications, showcasing my work across different domains.
         </p>
         <div class="project-grid">
-            <div class="project-card">
+            <div class="project-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="200">
                 <div class="project-image">
                     <img src="assets/project1.png" alt="Autonomous UAV System">
                 </div>
@@ -141,7 +143,7 @@
                     <p>Real-time autonomous UAV system with RTK-GPS waypoint navigation using PX4 and MAVLink communication.</p>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="300">
                 <div class="project-image">
                     <img src="assets/project1.png" alt="Computer Vision">
                 </div>
@@ -154,7 +156,7 @@
                     <p>Real-time object detection using YOLOv8n with Flask backend for web-based visualization and alerts.</p>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="400">
                 <div class="project-image">
                     <img src="assets/project1.png" alt="Web Application">
                 </div>
@@ -170,7 +172,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="800">
         <div class="footer-content">
             <p>© 2025 Atabik. All rights reserved.</p>
             <div class="footer-links">
@@ -180,6 +182,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
